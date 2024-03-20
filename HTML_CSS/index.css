@@ -1,0 +1,16 @@
+.centrar_texto {
+  text-align: center;
+}
+
+.centrar_cajas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.borde {
+  border: 0.12em solid #747474;
+  border-radius: 0.75em;
+  padding: 0.7em;
+  margin: 2em;
+  background-color: azure;
+}
