@@ -1,0 +1,38 @@
+/* Con CSS nos manejamos con clases; Las clases son identificadas con un "." */
+
+.encabeza {
+  background-color: aquamarine;
+  color: brown;
+}
+
+.alinear {
+  display: flex;
+  gap: 1.2em;
+}
+
+.foto {
+  width: 20em;
+}
+
+.titulo_exp {
+  font-weight: bold;
+}
+
+.parrafo_cursiva {
+  font-style: italic;
+}
+
+.caja_izquierda {
+  width: 30%;
+}
+.caja_derecha {
+  width: 65%;
+}
+
+.separacion_lineas {
+  line-height: 1.5em;
+}
+
+.margen {
+  margin-top: 0.5em;
+}
