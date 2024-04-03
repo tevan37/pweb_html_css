@@ -1,0 +1,29 @@
+.encabezado {
+    margin-bottom: 2em;
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.portada {
+    width: 100%;
+    aspect-ratio: 14 / 9;
+    object-fit: contain;
+    border: solid 0.2em;
+    border-color: aquamarine;
+    
+    /*width: 200px;*/
+    /*padding-left: 10px;*/
+}
+
+.alineamiento {
+   display: grid;
+   /* grid-template-columns: repeat(3,250px);*/
+   /* grid-template-rows: 200px;*/
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+}
+
+.caja {
+    background-image: url(fondo.jpg);
+}
