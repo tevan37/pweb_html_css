@@ -1,0 +1,3 @@
+1. La propiedad CSS es: [display: flex;] y [display: grid;]
+
+2. 
