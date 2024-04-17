@@ -1,3 +1,20 @@
-1. La propiedad CSS es: [display: flex;] y [display: grid;]
+1.  La propiedad CSS es: [display: flex;] y [display: grid;]
 
-2. 
+2.  Las propiedades CSS que cumplen la función de la distancia entre elementos hijos son las siguientes: 
+        - grid-row-gap: Establece el espacio entre las filas de la rejilla.
+        - grid-column-gap: Establece el espacio entre las columnas de la rejilla.
+
+3.  La diferencia entre 'align-items' y 'justify-content' es que 'align-items' permite 
+alinear los elementos flexibles en el contenedor en el eje transversal. En cambio, 'justify-content' 
+permite alinear los mismos en el contenedor en el eje principal. Siempre que este 'flex: direction;' 
+vamos a tener que usar 'align-items' para centrar el contenido. Si no se encuentra, utilizar 
+'justify-content'
+
+4.  La propiedad que altera el tamaño de las filas y columnas son las siguientes:
+    'grid-template-rows' y 'grid-template-columns' (en ese orden)
+
+5.  La diferencia entre 'display: grid;' y 'display: flex;' es que 'display: grid;' es más completo en
+el sentido de que se puede se puede poner más filas y columnas a partir de una sola linea de código
+
+6.  Alineación flexbox. Para el eje principal, se usa la propiedad 'justify-content' y para el eje 
+transversal, 'align-items'

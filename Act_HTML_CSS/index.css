@@ -1,0 +1,10 @@
+.element1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.element2 {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 50px 150px;
+    grid-template-columns: repeat(4, 150px);
+}
