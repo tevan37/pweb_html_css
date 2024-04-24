@@ -5,6 +5,10 @@
 .element2 {
     display: grid;
     justify-items: center;
-    grid-template-rows: 50px 150px;
-    grid-template-columns: repeat(4, 150px);
+    align-items: center;
+    justify-content: space-around;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 25px;
+
 }

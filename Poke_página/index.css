@@ -1,0 +1,14 @@
+.cartas_pokemon{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 400px);
+    grid-gap: 50px;
+    
+    /*border: solid, black, 20px;*/
+    
+}
+
+.imagen{
+    width: 100%;
+    object-fit: contain;
+}
